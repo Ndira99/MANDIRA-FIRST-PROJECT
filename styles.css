@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+
+ *{ margin: 0; 
+  
+  padding: 0; 
+   
+  outline: none;
+
+  box-sizing: border-box; 
+
+  font-family: verdana,georgia, san serif;
+ }
+ 
+ 
+
+body{
+    
+background: #776372;
+    
+border:20px;
+padding-right: 0px;
+padding-left: 0px;
+padding-bottom: 0px;
+padding-top: 0px;
+}
+  
+ 
+
+hi{
+ 		 
+background: url();
+ 
+} 
+  
+  
+ 
+
+.bodyvalues{
+ 
+padding:35px;
+ 		 	 
+font-size:20px;
+ 		 
+border:10px solid #3e443e;
+ 		 
+font-family:Times new roman;
+ 
+}
+ 
+
+
+nav{ 
+background: #3e443e; 
+    
+display: flex; 
+    
+position: fixed;
+    
+width: 100%;
+   
+ flex-wrap: wrap;
+    
+align-items: center; 
+    
+justify-content: space-between; 
+    
+height: 100px; 
+    
+padding-top: 0px;        
+ 
+} 
+  
+   
+
+ nav .logo{ 
+    
+color: #fff;
+    
+font-size: 20px; 
+    
+font-weight: 600; 
+    
+letter-spacing: -1px; 
+   
+ }
+     
+    
+
+ nav .nav-items{ 
+     
+display: flex; 
+     
+flex: 1; 
+     
+padding: 0 0 0 0px; 
+     
+    
+ } 
+     
+     
+
+nav .nav-items li{ 
+    
+ list-style: none; 
+     
+padding: 0 15px;     
+     
+border-radius:0%;
+     
+border:0px solid white;
+     
+   
+ } 
+    
+    
+
+nav .nav-items li a{ 
+    
+color: #fff; 
+    font-size: 18px; 
+    
+font-weight: 500; 
+    
+text-decoration: none; 
+    
+} 
+    
+   
+
+ nav .nav-items li a:hover{ 
+    
+color: #ff3d00; 
+    } 
+    
+    
+
+nav form{
+    
+display: flex; 
+    
+height: 40px; 
+    
+padding: 2px; 
+    
+background: #1e232b; 
+    
+min-width: 18%!important; 
+    
+border-radius: 20px; 
+    
+border: 1px solid rgba(155,155,155,0.2);
+
+ } 
+     
+  
+
+ nav form .search-data{
+   
+width: 100%; 
+   
+height: 100%; 
+   
+padding: 0 10px 10p; 
+  
+ color: #fff; 
+   
+font-size: 17px; 
+   
+border: none; 
+   
+font-weight: 500; 
+   
+background: none; 
+   
+} 
+   
+   
+
+nav form button{ 
+  
+ padding: 0 15px; 
+   
+color: #fff; 
+   
+font-size: 17px; 
+   
+background: #ff3d00; 
+  
+ border: none; 
+   
+border-radius: 2px; 
+  
+ cursor: pointer; 
+  
+ }
+   
+  
+
+ nav form button:hover{
+  
+ background: #e63600; 
+  
+ } 
+   
+   
+
+nav .menu-icon,
+   nav .cancel-icon, 
+   nav .search-icon{ 
+  
+ width: 40px; 
+   
+text-align: center; 
+   
+margin: 0 50px; 
+   
+font-size: 18px; 
+  
+ color: #fff; 
+   
+cursor: pointer; 
+   
+display: none; 
+  
+ } 
+   
+  
+
+ nav .menu-icon span, 
+   
+nav .cancel-icon, 
+   nav .search-icon{ 
+   display: none; 
+   } 
+   
+    
+
+ .container {
+         
+display: flex;
+         
+background: Transparency;
+        
+ padding: 1px;
+     
+ }
+     
+
+ .container > Navy {
+        
+ background: yellow;
+       
+  width: 100%;
+        
+ height: 150px;
+         
+margin: 5px;
+     
+ }
+   
+  
+
+ footer{
+   				
+background: white;
+   				
+color:#2d1400;
+   				
+width:100% ;  
+   				
+padding:0 10px ;   				   				
+   				
+margin-bottom:0px;
+   
+}
+  
+
+ 
+footer a { 
+text-decoration: none;
+           
+color:#af15ff;
+    
+}
+   
+   
+   
+   
+
+.fouter{
+   				
+height: 40px;
+   				
+background: #000000;
+   				
+color: white;
+   				
+width: 100%;
+   				
+font-size:15px;
+   
+}
+   
+  
+
+ #myBtn {
+display: none;
+  
+position: fixed;
+  
+bottom: 70px;
+  
+right: 5%;
+  
+z-index: 99;
+  
+font-size: 20px;
+ 
+ border: none;
+  
+outline: none;
+  
+background-color: white;
+ 
+ color: black;
+  
+cursor: pointer;
+  
+padding:20px;
+  
+border-radius: 20px;
+}
+
+
+
+#myBtn:hover {
+background-color: grey;
+}
+   
+   
+ 
+
+@media (max-width: 1245px) { 
+   
+ nav{ 
+    padding: 0 50px; 
+ } 
+ 
+ 
+} 
+ 
+ 
+
+@media (max-width: 1140px){ 
+   
+ nav{ 
+    padding: 0px; 
+ 
+} 
+ 
+   
+ nav .logo{ 
+    flex: 2; 
+    
+text-align: center; 
+ 
+} 
+ 
+  
+ nav .nav-items{ 
+   
+position: fixed; 
+   
+z-index: 99; 
+   
+top: 70px; 
+  
+ width: 100%; 
+  
+ left: -100%; 
+   
+height: 100%; 
+   
+padding: 10px 50px 0 50px; 
+   
+text-align: center; 
+   
+background: #14181f; 
+   
+display: inline-block; 
+   
+transition: left 0.3s ease; 
+ 
+  } 
+   
+   
+nav .nav-items.active{ 
+  
+ left: 0px; 
+   
+} 
+   
+  
+
+ nav .nav-items li{ 
+  
+ line-height: 40px; 
+   
+margin: 30px 0; 
+   
+} 
+   
+  
+
+ nav .nav-items li a{ 
+  
+ font-size: 20px;
+  
+ } 
+   
+   
+
+nav form{ 
+   
+position: absolute; 
+   
+top: 80px; 
+  
+ right: 50px; 
+   
+opacity: 0; 
+   
+pointer-events: none; 
+   
+transition: top 0.3s ease, opacity 0.1s ease;
+  
+ } 
+   
+  
+
+ nav form.active{ 
+   
+top: 95px; 
+   
+opacity: 1; 
+   
+pointer-events: auto; 
+   
+} 
+   
+  
+
+ nav form:before{ 
+   
+position: absolute; 
+   
+content: ""; 
+   
+top: -13px; 
+   
+right: 0px; 
+   
+width: 0; 
+   
+height: 0; 
+   
+z-index: -1; 
+   
+border: 10px solid transparent;       
+  
+ border-bottom-color: #1e232b; 
+   
+margin: -20px 0 0; 
+  
+ } 
+   
+   
+
+nav form:after{ 
+   
+position: absolute; 
+   
+content: ''; 
+   
+height: 60px; 
+   
+padding: 2px; 
+   
+background: #1e232b; 
+   
+border-radius: 2px; 
+   
+min-width: calc(100% + 20px); 
+   
+z-index: -2; 
+   left: 50%; 
+   
+top: 50%; 
+   
+transform: translate(-50%, -50%); 
+ 
+  } 
+   
+ 
+
+  nav .menu-icon{ 
+  
+ display: block; 
+   
+} 
+   
+   
+
+nav .search-icon, 
+   nav .menu-icon span{ 
+  
+ display: block; 
+ 
+  } 
+   
+  
+
+ nav .menu-icon 
+   span.hide, 
+   nav .search-icon.hide{ 
+  
+ display: none; 
+  
+ } 
+   
+   
+
+nav .cancel-icon.show{ 
+   
+display: block; 
+   
+} 
+   
+} 
+   
+  
+
+ .content{ 
+   
+position: absolute; 
+   
+top: 50%; 
+   
+left: 50%; 
+   
+text-align: center; 
+   transform: translate(-50%, -50%); } 
+   
+  
+
+ .content header{ 
+   
+font-size: 30px; 
+   
+font-weight: 700; 
+  
+ } 
+   
+  
+
+ .content .text{ 
+   
+font-size: 30px; 
+   
+font-weight: 700; 
+   
+} 
+   
+   
+   
+
+.space{ 
+  
+ margin: 10px 0; 
+ 
+  } 
+   
+  
+
+ nav .logo.space{ 
+  
+ color: red; 
+   
+padding: 0 5px 0 0; 
+  
+ } 
+  
+
+ 
+@media (max-width: 980px){
+ 
+nav .menu-icon, 
+nav .cancel-icon, 
+nav .search-icon{ 
+  
+ margin: 0 20px; 
+  
+ } 
+   
+   
+nav form{ 
+   
+right: 30px; 
+  
+ } 
+   
+} 
+  
+
+ 
+@media (max-width: 350px){ 
+nav .menu-icon, 
+nav .cancel-icon, 
+nav .search-icon{ 
+margin: 0 10px; 
+font-size: 16px; 
+} 
+
+ .bodyvalues{
+ 		 padding-left:5px;
+ 		 padding-right:5px;
+ 		 font-size:5px;
+ 		
+ font-family:san serif;
+ 
+}
+
+.fouter{
+   				height: 17px;
+   				background:#000000;
+   				color: white;
+   				width: 100%;
+   				font-size:10px;
+   }
+   
+
+} 
+
+.content{ 
+position: absolute; 
+top: 50%; 
+left: 50%; 
+transform: translate(-50%, -50%); 
+} 
+
+.content header{ 
+font-size: 30px; 
+font-weight: 700; 
+} 
+
+.content .text{ 
+font-size: 30px; 
+font-weight: 700; 
+}
+
+ .content .space{ 
+ margin : 10px  0; 
+ }
+
+
+
+
+
+
+
+
+
+
+
+Comic Sans MS, Comic Sans, cursive
